@@ -1,0 +1,1 @@
+../../../WSqlJelly/WSqlJelly/Classes/WSqlQuery.h

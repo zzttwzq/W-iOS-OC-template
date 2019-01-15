@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  ZhiJianKe
+//
+//  Created by Wuzhiqiang on 2018/4/4.
+//  Copyright © 2018年 Wuzhiqiang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <tingyunApp/NBSAppAgent.h>
+#import <AvoidCrash/AvoidCrash.h>
+#import "SDCycleScrollView.h"
+#import <Masonry/Masonry.h>
+#import "SVProgressHUD.h"
+#import "MJRefresh.h"
+#import <UMCommon/UMCommon.h>
+#import <UMShare/UMShare.h>
+
+#import "AppMicro.h"
+
+#import "UITextField+uitextfildEnhance.h"
+#import "UIButton+uibuttonEnhance.h"
+#import "UIViewController+viewcontrollerEnhanced.h"
+
+#endif /* PrefixHeader_pch */

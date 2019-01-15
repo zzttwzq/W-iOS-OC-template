@@ -1,0 +1,1 @@
+../../../WBasicLibrary/WBasicLibrary/Classes/UIGestureRecognizer+WHandler.h

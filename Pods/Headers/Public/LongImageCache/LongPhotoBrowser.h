@@ -1,0 +1,1 @@
+../../../LongImageCache/src/manager/LongPhotoBrowser.h

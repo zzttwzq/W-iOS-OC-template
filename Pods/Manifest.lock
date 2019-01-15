@@ -1,0 +1,145 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AvoidCrash (2.5.2)
+  - IQKeyboardManager (6.2.0)
+  - LongDispatch (1.0.3)
+  - LongImageCache (1.0.5):
+    - LongDispatch (~> 1.0.3)
+    - LongImageCache/Core (= 1.0.5)
+    - LongRequest (~> 1.0.1)
+  - LongImageCache/Core (1.0.5):
+    - LongDispatch (~> 1.0.3)
+    - LongRequest (~> 1.0.1)
+  - LongRequest (1.0.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SVProgressHUD (2.2.5)
+  - tingyunApp (2.11.5)
+  - UMCCommon (2.0.0)
+  - UMCShare/Core (6.9.5):
+    - UMCCommon
+  - UMCShare/Social/QQ (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - UMCShare/Social/WeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - WBasicLibrary (0.5.3)
+  - WExpandLibrary (0.3.0):
+    - SDWebImage
+    - WBasicLibrary
+  - WMessage (0.1.6)
+  - WNetwork (0.1.6):
+    - AFNetworking
+  - WRouter (1.0.6):
+    - WExpandLibrary
+  - WSqlJelly (0.2.0):
+    - WExpandLibrary
+  - WVideoPlayer (0.2.4):
+    - WBasicLibrary
+
+DEPENDENCIES:
+  - AvoidCrash
+  - IQKeyboardManager
+  - LongImageCache
+  - Masonry
+  - MJRefresh
+  - SDCycleScrollView
+  - SVProgressHUD
+  - tingyunApp
+  - UMCCommon
+  - UMCShare/Social/QQ
+  - UMCShare/Social/Sina
+  - UMCShare/Social/WeChat
+  - WBasicLibrary
+  - WExpandLibrary
+  - WMessage
+  - WNetwork
+  - WRouter
+  - WSqlJelly
+  - WVideoPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AvoidCrash
+    - IQKeyboardManager
+    - LongDispatch
+    - LongImageCache
+    - LongRequest
+    - Masonry
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+    - tingyunApp
+    - UMCCommon
+    - UMCShare
+    - WBasicLibrary
+    - WExpandLibrary
+    - WMessage
+    - WNetwork
+    - WRouter
+    - WSqlJelly
+    - WVideoPlayer
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AvoidCrash: 28c6916fe19bd2b84126b8dec7cbe61c9a12741d
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  LongDispatch: b7df1884fc10e944e804e1d1f44ddb5c70dfc0a1
+  LongImageCache: 9cdc6b9b05cafd61ce0cbdabcbd78a73ab089ef0
+  LongRequest: b0666bb1d58f8a5b643ba3e1671e62804e4b16d6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  tingyunApp: e8bac3155d92aff3833cca859b935dcc1b6eb837
+  UMCCommon: 79b5a614c958db367113eed5740109d9a98e1223
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+  WBasicLibrary: 507f3ba5fa7cd0ade30f5f1d6c1204741b08ae1c
+  WExpandLibrary: d057fe9226e32f839cc07750681a456db7656662
+  WMessage: b3d120fac140c78900300ea4cb242a295370ff7c
+  WNetwork: c58cbc4f733b1fca84439acef7045b1581b4d69b
+  WRouter: b9df2891074ffb0edf4a82b868ae628828bafe03
+  WSqlJelly: 84f6047a9fafa1d6e49be622039b638a7e983b02
+  WVideoPlayer: edb30310295645ba6cbbb2ffa9b8e2acfb949686
+
+PODFILE CHECKSUM: 0609eee4df31a07b4ed5d4590a5ab0d600452a23
+
+COCOAPODS: 1.5.3
