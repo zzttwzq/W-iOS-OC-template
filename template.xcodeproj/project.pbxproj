@@ -624,7 +624,6 @@
 				1C7FBE4421EC2FC40041B180 /* Sources */,
 				1C7FBE4521EC2FC40041B180 /* Frameworks */,
 				1C7FBE4621EC2FC40041B180 /* Resources */,
-				59B67EDD341C3734A095E0E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -759,72 +758,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		59B67EDD341C3734A095E0E2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-template/Pods-template-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_play_again_icon_160x80.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_play_again_icon_160x80@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_play_again_icon_160x80@3x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_video_play_90x90.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_video_play_90x90@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_video_play_90x90@3x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_video_stop_90x90.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_video_stop_90x90@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/btn_video_stop_90x90@3x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/left_back_icon_white_60x60.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/left_back_icon_white_60x60@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/left_back_icon_white_60x60@3x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/narrow_btn.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/narrow_btn@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/narrow_btn@3x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/video_amplification.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/video_amplification@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/video_amplification@3x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/椭圆-1.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/椭圆-1@2x.png",
-				"${PODS_ROOT}/WVideoPlayer/WVideoPlayer/Assets/椭圆-1@3x.png",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_play_again_icon_160x80.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_play_again_icon_160x80@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_play_again_icon_160x80@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_video_play_90x90.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_video_play_90x90@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_video_play_90x90@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_video_stop_90x90.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_video_stop_90x90@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_video_stop_90x90@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/left_back_icon_white_60x60.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/left_back_icon_white_60x60@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/left_back_icon_white_60x60@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/narrow_btn.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/narrow_btn@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/narrow_btn@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/video_amplification.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/video_amplification@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/video_amplification@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/椭圆-1.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/椭圆-1@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/椭圆-1@3x.png",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-template/Pods-template-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

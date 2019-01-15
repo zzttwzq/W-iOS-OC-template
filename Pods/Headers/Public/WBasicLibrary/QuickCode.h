@@ -1,1 +1,0 @@
-../../../WBasicLibrary/WBasicLibrary/Classes/QuickCode.h
